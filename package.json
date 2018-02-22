@@ -1,0 +1,8 @@
+{
+  "name": "react-swipe-lightbox",
+  "version": "1.0.0",
+  "description": "React Component Lightbox with Swipe and Keyboard Events ",
+  "main": "index.jsx",
+  "author": "Stephan Duby <stephan.duby@etecture.de>",
+  "license": "MIT"
+}
