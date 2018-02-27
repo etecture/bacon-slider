@@ -11,16 +11,15 @@
     "Gallery"
   ],
   "repository": "https://github.com/etecture/bacon-slider",
-  "peerDependency": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
+  "peerDependency": {},
   "scripts": {
     "watch": "cross-env NODE_ENV=development webpack -w",
     "build:dev": "cross-env NODE_ENV=development webpack",
     "build:production": "cross-env NODE_ENV=production webpack -p"
   },
   "devDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.2.1",
