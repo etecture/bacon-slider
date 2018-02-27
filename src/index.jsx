@@ -180,7 +180,7 @@ export default class Gallery extends Component {
             <div className={classList}
                  tabIndex='0'
                  onKeyDown={this.handleKeyPress}
-                 ref={'gallery'}
+                 ref='gallery'
             >
                 <div className='gallery-header'>
                     <i className='fa fa-times'
