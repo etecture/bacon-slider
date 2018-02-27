@@ -1,6 +1,6 @@
 {
   "name": "bacon-slider",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Component Lightbox with Swipe and Keyboard Events - totally bacon!",
   "main": "lib/index.js",
   "author": "Stephan Duby <stephan.duby@etecture.de>",
@@ -32,8 +32,6 @@
     "css-loader": "^0.28.10",
     "lodash": "^4.17.5",
     "node-sass": "^4.7.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0"
