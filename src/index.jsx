@@ -183,7 +183,7 @@ export default class Gallery extends Component {
                  ref={'gallery'}
             >
                 <div className='gallery-header'>
-                    <i class='fa fa-times'
+                    <i className='fa fa-times'
                        onClick={this.handleClickCloseGallery}/>
                 </div>
                 <div className='arrow prev' onClick={this.handleClickPrev}>
