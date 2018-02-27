@@ -1,6 +1,6 @@
 {
   "name": "bacon-slider",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React Component Lightbox with Swipe and Keyboard Events - totally bacon!",
   "main": "lib/index.js",
   "author": "Stephan Duby <stephan.duby@etecture.de>",
@@ -10,7 +10,7 @@
     "LightBox",
     "Gallery"
   ],
-  "repository": "https://github.com/etecture/react-swipe-lightbox.git",
+  "repository": "https://github.com/etecture/bacon-slider",
   "peerDependency": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

@@ -186,10 +186,10 @@ export default class Gallery extends Component {
                     <i class='fa fa-times'
                        onClick={this.handleClickCloseGallery}/>
                 </div>
+                <div className='arrow prev' onClick={this.handleClickPrev}>
+                  <i className='fa fa-angle-left' />
+                </div>
                 <div className='slider-container'>
-                    <div className='arrow prev' onClick={this.handleClickPrev}>
-                      <i className='fa fa-angle-left' />
-                    </div>
                     {images.map((image, index) => {
                         let imageClass = 'image-container';
                         if (index === currentImage) {
@@ -224,9 +224,9 @@ export default class Gallery extends Component {
                             />
                         );
                     })}
-                    <div className='arrow next' onClick={this.handleClickNext}>
-                      <i className='fa fa-angle-right' />
-                    </div>
+                </div>
+                <div className='arrow next' onClick={this.handleClickNext}>
+                  <i className='fa fa-angle-right' />
                 </div>
                 <div className='thumbnail-container'>
                         <div className='thumbnail-slide'
