@@ -38,12 +38,6 @@ $thumbnailContainerHeight: 100px;
     }
   }
 
-  .slider-container {
-    height: calc(100% - (#{$galleryHeaderHeight} + #{$galleryFooterHeight} + #{$thumbnailContainerHeight}));
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-
     .arrow {
       background: $color-primary;
       width: 30px;
@@ -74,6 +68,16 @@ $thumbnailContainerHeight: 100px;
 
     }
 
+  .slider-container {
+    height: calc(100% - (#{$galleryHeaderHeight} + #{$galleryFooterHeight} + #{$thumbnailContainerHeight}));
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    @media (min-width: $desktop-width-small) {
+      left: 30px;
+    }
+
     .image-container {
       position: absolute;
       top: 50%;
@@ -87,16 +91,15 @@ $thumbnailContainerHeight: 100px;
       z-index: 100;
 
       @media (min-width: $tablet-width-portrait) {
-        transition: left 700ms, opacity 700ms;
+        transition: left 400ms, opacity 700ms;
       }
 
       @media (min-width: $tablet-width-landscape) {
-        transition: left 850ms, opacity 850ms;
+        transition: left 500ms, opacity 850ms;
       }
 
       @media (min-width: $desktop-width-small) {
         width: calc(100% - 60px);
-        transition: left 1000ms, opacity 1000ms;
       }
 
       img {
