@@ -1,4 +1,4 @@
-# react-swipe-lightbox
+# bacon-slider
 React image Lightbox with Swipe and Keyboard Events
 
 
